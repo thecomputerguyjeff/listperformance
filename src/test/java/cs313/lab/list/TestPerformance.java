@@ -14,11 +14,12 @@ public class TestPerformance {
   // running time is in the tens of seconds)
   // TODO (optional) refactor to DRY
   // TODO answer: which of the two lists performs better as the size increases?
-  private final int SIZE = 10;
+  //For adding and removing, LinkedLists are better, while ArrayLists are better for accessing.
+  private final int SIZE = 1000;
 
   // TODO choose this value in such a way that you can observe an actual effect
   // for increasing problem sizes
-  private final int REPS = 1000000;
+  private final int REPS = 100000000;
 
   private List<Integer> arrayList;
 
